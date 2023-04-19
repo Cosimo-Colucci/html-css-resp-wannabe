@@ -131,8 +131,18 @@ img {
 
  @media screen and (max-width: 780px) {
 
-    .container{
+    .row {
         width: 780px;
     }
     
+ }
+
+ @media screen and (max-width: 480px) {
+    h1, h2{
+        width: 480px;
+    }
+   
+    .row{
+        flex-direction: column;
+    }
  }
