@@ -148,4 +148,16 @@ img {
     section.steps div.row{
         margin: 0 4rem;
     }
+
+    section.steps{
+        margin-bottom: 0;
+    }
+
+    section.why-us{
+        background-color: black;
+    }
+
+    section.why-us div.container{
+        margin-top: 2rem;
+    }
  }
