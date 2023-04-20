@@ -138,26 +138,23 @@ img {
  }
 
  @media screen and (max-width: 480px) {
-    h1, h2{
-        width: 480px;
-    }
-   
     .row{
         flex-direction: column;
     }
-    section.steps div.row{
-        margin: 0 4rem;
-    }
 
-    section.steps{
-        margin-bottom: 0;
+    .lessons .col,
+    .steps .col,
+    .why-us .col {
+        width: 10%;
+        margin-bottom: 3.5rem;
     }
-
-    section.why-us{
+    
+    .steps{
+        margin: 3rem 0 0;
+    }
+    .why-us{
         background-color: black;
-    }
-
-    section.why-us div.container{
         padding-top: 3rem;
+        margin-bottom: 0;
     }
  }
