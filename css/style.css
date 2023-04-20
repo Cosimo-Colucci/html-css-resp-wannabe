@@ -131,8 +131,8 @@ img {
 
  @media screen and (max-width: 780px) {
 
-    .row {
-        width: 780px;
+    .container {
+        width: 100%;
     }
     
  }
